@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: [self-hosted, 5000-iops]
 
     steps:
       - uses: actions/checkout@v1
